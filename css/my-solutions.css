@@ -110,3 +110,99 @@
         }
 }
 
+/* Esercizio 12 */
+.ex-12-button:hover .ex-12-top-white {
+    animation: movetop12 2s linear;
+}
+
+@keyframes movetop12 {
+    0% {
+        left: 10%;
+    }
+    50% {
+        left: calc(100% - 60px);
+    }
+    100% {
+        left: 10%;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: movebottom12 2s linear;
+}
+
+@keyframes movebottom12 {
+    0% {
+        right: 20%;
+    }
+    50% {
+        right: calc(100% - 60px);
+    }
+    100% {
+        right: 20%;
+    }
+}
+
+/* Esercizio 13 */
+.ex-13-button:hover .ex-13-top-white {
+    animation: movetop13 2s linear;
+}
+
+@keyframes movetop13 {
+    0% {
+        left: 10%;
+    }
+    30% {
+        left: calc(100% - 30px);
+        top: -10%;
+    }
+    50% {
+        left: calc(100% - 30px);
+        top: 100%;
+    }
+    80% {
+        left: 0;
+        top: 100%;
+    }
+    90% {
+        left: -15%;
+        top: -10%;
+    }
+    100% {
+        left: 10%;
+        top: -10%;
+    }
+}
+
+.ex-13-button:hover .ex-13-bottom-white {
+    animation: movebottom13 2s linear;
+}
+
+@keyframes movebottom13 {
+    0% {
+        right: 20%;
+    }
+    30% {
+        right: calc(100% - 30px);
+        bottom: -20%;
+    }
+    50% {
+        right: calc(100% - 30px);
+        bottom: 100%;
+    }
+    80% {
+        right: 0;
+        bottom: 100%;
+    }
+    90% {
+        right: -15%;
+        bottom: -10%;
+    }
+    100% {
+        right: 10%;
+        bottom: -10%;
+    }
+}
+
+
+
