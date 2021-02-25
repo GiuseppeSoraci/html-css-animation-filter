@@ -70,3 +70,43 @@
     border-radius: 15px;
     filter: saturate(50%) grayscale(0.5);
 }
+
+/* Esercizio 9 */
+.ex-9-img {
+    transition: 2s;
+}
+
+.ex-9-img:hover {
+    border-radius: 15px;
+    transform: scale(1.5);
+    filter: saturate(50%) grayscale(0.5);
+}
+
+/* Esercizio 10 */
+.ex-10-icon {
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(1turn);
+    }
+}
+
+/* Esercizio 11 */
+.ex-11-icon:hover {
+    animation: spintwo 2s linear;
+}
+
+@keyframes spintwo {
+        0% {
+            transform: rotate(0);
+        }
+        90% {
+            transform: rotate(300deg);
+        }
+        100% {
+            transform: rotate(0);
+        }
+}
+
